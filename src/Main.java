@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(encryptThis("Meagan completed lab four!"));
-        System.out.println(decipherThis("77nagae 99dmpleteo 108ba 102!uro"));
+
     }
     // 1. parenthesesCheck
     public static boolean parenthesesCheck(String str){
@@ -33,9 +32,7 @@ public class Main {
         int y = 0;
 
         for (int i = 1; i < str2.length()-2; i++) {
-            if (str2.charAt(i - 1) == ' ') {        //first char
-                out += (int) str2.charAt(i);    //converts first char to int
-            }
+            if (str2.charAt(i - 1) == ' ') { out += (int) str2.charAt(i);   //first char converting to int
             else if (str2.charAt(i - 2) == ' ') {           //second char
                 y = i;
                 for (int j = i; j < str2.length(); j++) {
