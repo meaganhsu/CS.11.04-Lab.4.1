@@ -32,7 +32,7 @@ public class Main {
         int y = 0;
 
         for (int i = 1; i < str2.length()-2; i++) {
-            if (str2.charAt(i - 1) == ' ') { out += (int) str2.charAt(i);   //first char converting to int
+            if (str2.charAt(i - 1) == ' ') out += (int) str2.charAt(i);   //first char converting to int
             else if (str2.charAt(i - 2) == ' ') {           //second char
                 y = i;
                 for (int j = i; j < str2.length(); j++) {
